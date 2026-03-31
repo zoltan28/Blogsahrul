@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Sahrul Pro Cuan</title>
+
+<!-- ADSENSE -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1087445671304236"
+     crossorigin="anonymous"></script>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  font-size: 22px;
+}
+
+/* CONTAINER */
+.container {
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: #1a1a1a;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+/* IMAGE */
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.button {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, orange, red);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.05);}
+  100% {transform: scale(1);}
+}
+
+/* STICKY CTA */
+.sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: red;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* POPUP */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* IKLAN */
+.adsbygoogle {
+  margin: 15px 0;
+}
+</style>
+</head>
+
+<body>
+
+<header>🔥 Blog Sahrul PRO CUAN 🔥</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+    <h2>HP Murah Spek Dewa 🚀</h2>
+
+    <!-- IKLAN -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-1087445671304236"
+         data-ad-slot="4169370015"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+    <p>HP murah tapi performa tinggi, cocok gaming & TikTok!</p>
+
+    <a href="#" class="button">🔥 BELI SEKARANG DISKON</a>
+  </div>
+
+</div>
+
+<!-- STICKY CTA -->
+<div class="sticky">
+👉 DISKON HARI INI - KLIK SEKARANG 🔥
+</div>
+
+<!-- POPUP -->
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <h2>🔥 DISKON TERBATAS</h2>
+    <p>Harga bisa naik kapan saja!</p>
+    <a href="#" class="button">BELI SEKARANG</a>
+  </div>
+</div>
+
+<script>
+// POPUP muncul
+setTimeout(() => {
+  document.getElementById("popup").style.display = "flex";
+}, 3000);
+</script>
+
+</body>
+</html>
